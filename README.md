@@ -15,6 +15,19 @@ To run:
 bun run index.tsx
 ```
 
+To build executable:
+
+```bash
+# For MacOS ARM Users
+bun build --compile --target=bun-darwin-arm64 ./index.tsx --outfile yyt33
+
+# For Windows x64 Users
+bun build --compile --target=bun-windows-x64 ./index.tsx --outfile yyt33
+
+# For Linux x64 Users
+bun build --compile --target=bun-linux-x64 ./index.tsx --outfile yyt33
+```
+
 This project was created using `bun init` in bun v1.1.5. [Bun](https://bun.sh) is a fast all-in-one JavaScript runtime.
 
 # 설명
